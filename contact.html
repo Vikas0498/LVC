@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="JS/validation.js"></script>
+    </head>
+    <body background="./Media/images/1.jpg">
+        <header>
+            <h1>Live Virtual Class</h1>
+          </header>
+          <br>
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pre-test.html">Pre-test</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="registeration.html">Registeration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+        <br>
+        <marquee scroll-amount="20"><h1>This Site is Ad Free..</h1></marquee>
+        <br>
+        <br>
+        <div class="bt">
+        <form  method="GET" name="form3" action="index.html" onsubmit="return validate2()">
+            <table class="bb" align="center" cellspacing="20">
+              <th></th>
+              <th></th>
+                <tr>
+                    <td>
+                    <h2>Name</h2>
+                   </td>
+                    <td>
+                    <input type="text" name="text1" placeholder="Enter your name" onblur="fc1()">
+                    </td>
+                </tr>
+                <tr> 
+                  <td>
+                  <h2>Gender</h2>
+                  </td> 
+                  <td>
+                  Male<input type="radio" name="r1" form="form1">
+                  Female<input type="radio" name="r1" form="form1">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                  <h2>Course</h2></td>
+                <td>Java<input type="checkbox" name="r2" form="form1">
+                  .Net<input type="checkbox" name="r2" form="form1">
+                  Java script<input type="checkbox" name="r2" form="form1">
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>Country</h2>
+                  </td>
+                  <td>
+                    <select name="s" id="mySelect" onchange="myFnction()">
+                      <option value="India">India</option>
+                      <option value="China">China</option>
+                      <option value="Japan">Japan</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="text" value="You selected India" id="demo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <h2>Request No.</h2>
+                    </td>
+                    <td>
+                        <input type="text" name="tv1" id="tvb1" onkeypress="myfn1()">
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>Remarks</h2>
+                  </td>
+                  <td>
+                  <textarea rows="5" cols="40" id="tvb2" name="tvb2" onfocus="jfun10()">
+                    </textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><input type="submit"></td>
+                </tr>
+            </table>
+          </form>
+          </div>
+          <br>
+          <br>
+          <br>
+          <footer><h3>All rights reserved.</h3></footer>
+    </body background="1.jpg">
+</html>

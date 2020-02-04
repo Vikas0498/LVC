@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="JS/validation.js"></script>
+    </head>
+    <body background="./Media/images/1.jpg">
+        <header>
+            <h1>Live Virtual Class</h1>
+          </header>
+          <br>
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pre-test.html">Pre-test</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="registeration.html">Registeration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+        <br>
+        <marquee scrollamount="20"><h1>This Site is Ad Free..</h1></marquee>
+        <br>
+        <br>
+        <br>
+
+        <form  method="GET" name="form2" action="">
+            <table class="b2" align="center" cellspacing="40">
+                    <th>
+                        <h3 onmouseover="myfn()">
+                            Student Marks:
+                        </h3>
+                    </th>
+                <tr>
+                    <td>English</td>
+                    <td>
+                        <input type="text" id="txt1" name="t1" placeholder="Enter Marks">
+                    </td>
+                    <td>Maths</td>
+                    <td>
+                        <input type="text" id="txt2" name="t2" placeholder="Enter Marks">
+                    </td>
+                    <td>Science</td>
+                    <td>
+                        <input type="text" id="txt3" name="t3" placeholder="Enter Marks">
+                    </td>
+                    </tr>
+                    <tr><td>
+                        Result:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Total Marks</td>
+                        <td>
+                            <input type="text" id="output" readonly/>
+                    </td>
+                    <td>Percentage</td>
+                    <td>
+                        <input type="text" id="output1" readonly/>
+                    </td>
+                    <td>Highest-Marks</td>
+                    <td>
+                        <input type="text" id="output2" readonly/>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset">
+                            </td>
+                            <td>
+                            <input type="button" value="Submit" onclick="return validate()">
+                            </td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <footer><h3>All rights reserved.</h3></footer>
+    </body>
+</html>

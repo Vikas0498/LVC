@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Live Virtual Class</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="JS/validation.js"></script>
+    </head>
+    <body background="./Media/images/1.jpg">
+        <header>
+            <h1>Live Virtual Class</h1>
+          </header>
+          <br>
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Pre-test.html">Pre-test</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="registeration.html">Registeration</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <marquee scroll-amount="20"><h1>This Site is Ad Free..</h1></marquee>
+        <br>
+        <br>
+        <form  method="GET" name="form1" action="index.html" onsubmit="return validate1()">
+            <table class="bb" align="center" cellspacing="0">
+                <tr>
+                    <td>
+                    <h2>Name</h2>
+                   </td>
+                    <td>
+                    <input type="text" name="text1" id="uname" placeholder="Enter your name" onkeyup="fc()"><span id="nm1" color="red"></span>
+                    </td>
+                </tr>
+                <tr> 
+                  <td>
+                  <h2>Gender</h2>
+                  </td> 
+                  <td>
+                  Male<input type="radio" name="r1" form="form1">
+                  Female<input type="radio" name="r1" form="form1">
+                  </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>D.O.B</h2>
+                    </td>
+                    <td>
+                    <input type="date" name="bday">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Email</h2>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="Email">
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                  <h2>Course</h2></td>
+                <td>Java<input type="checkbox" name="r2" value="java" form="form1">
+                  .Net<input type="checkbox" name="r2" value=".net" form="form1">
+                  Java script<input type="checkbox" name="r2" value="java script" form="form1">
+                  <input type="button" value="check" id="b21" name="b21" onclick="jfnn()">
+                </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>Country</h2>
+                  </td>
+                  <td>
+                    <select name="s">
+                      <option value="India">India</option>
+                      <option value="China">China</option>
+                      <option value="Japan">Japan</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>Course Material from:</h2>
+                  </td>
+                  <td>
+                    <select name="s" id="s">
+                      <option value="https://www.google.com/search?q=">Google</option>
+                      <option value="https://www.bing.com/search?q=">Bing</option>
+                      <option value="https://in.search.yahoo.com/search?q=">Yahoo</option>
+                      <option value="https://www.youtube.com/search?q=">Youtube</option>
+                    </select>
+                  </td>
+                  <td>
+                    <input type="button" value="Go" onclick="myfnn1()">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>Additional Info.</h2>
+                  </td>
+                  <td>
+                  <textarea rows="6" cols="40">
+                    </textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td><p>    <p></p><input type="reset"></td>
+                  <td><p>    <p></p><input type="submit"></td>
+                </tr>
+            </table>
+          </form>
+          <br>
+          <br>
+          <br>
+        <footer><h3>All rights reserved.</h3></footer>
+    </body>
+</html>

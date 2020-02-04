@@ -1,0 +1,166 @@
+header{
+border: 3px solid black;
+padding:1%;
+background-color: rgb(1, 12, 5);
+text-align: center;
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 25px;
+color: wheat;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    border: 1px solid black;
+    padding:1%;
+    background-color: rgb(235, 252, 242);
+    text-align: left;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    font-size: large;
+}
+a:link {
+    color:black;
+}
+  a:visited {
+    color:black;
+}
+  a:hover {
+    color:royalblue;
+}
+li{
+    display: inline;
+}
+a{
+    padding-right: 8%;
+    padding-left: 5%;
+}
+section{
+    display: inline;
+    font-size:x-large;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left, .right {
+    width: 30%;
+  }
+  
+  .middle {
+    width: 40%;
+
+  }
+   /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img {
+    object-fit: fill;
+  }
+  footer{
+    border: 3px solid black;
+    padding:1%;
+    background-color: rgb(1, 12, 5);
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    color: wheat;
+}
+div.bt{
+  padding-left: 30%;
+  padding-right: 30%;
+  border: 2% solid black;
+  border-radius: 5%;
+}
+
+img.vv{
+  opacity: 0.2;
+}
+img:hover.bittu {
+  transform: scaleX(-1);
+}
+img:hover.vv {
+  opacity: 1;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:black;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color:wheat;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  top:50%;
+  left:50%;
+  position: absolute;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+table{
+  border-radius: 1.5%;
+  box-shadow: blue;
+  background-color: lightgray;
+}
+h2{
+color:black;
+text-shadow:blanchedalmond;
+}
+marquee{
+  height: 5%;
+  border: 1px solid black;
+  padding:1%;
+  background-color: rgb(1, 12, 5);
+  text-align: center;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 25px;
+  color: wheat;
+  font-size: medium;
+}
+table.b2{
+  height: 80%;
+  width:40%;
+}
+div.vibi{
+  width: 100%;
+  border:5px solid lightgrey;
+  padding:1%;
+  border-radius: 5%;
+}
